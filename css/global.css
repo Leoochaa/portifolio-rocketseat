@@ -1,0 +1,7 @@
+body {
+    display: flex;
+    flex-direction: row;
+
+    background: #22212C;
+    padding: 40px 40px 60px 40px;
+}

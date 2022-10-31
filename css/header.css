@@ -1,0 +1,135 @@
+header {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    width: 348px;
+
+    padding: 30px;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+header h2 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #837E9F;
+}
+
+.img-profile {
+    box-sizing: border-box;
+    width: 128px;
+    height: 128px;
+    margin-bottom: 30px;
+    border: 2px solid #00FF00;
+    border-radius: 50%;
+}
+
+.card-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+
+}
+
+.card-profile h1 {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    color: #837E9F;
+
+    margin-bottom: 10px;
+}
+
+.card-profile p {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #837E9F;
+}
+
+.card-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-infos a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-infos p {
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #837E9F;
+}
+
+.techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-techs p {
+    width: 86px;
+    height: 24px;
+    color: black;
+    background: #CB92B1;
+    border-radius: 30px;
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.contain-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    padding-left: 45px;
+
+}
+
+#first-item-li {
+    font-weight: 700;
+    list-style: disc;
+    color: #837E9F;
+}
+
+#second-item-li {
+    font-weight: 100;
+    list-style: none;
+    color: #837E9F;
+}
+
+#third-item-li {
+    font-weight: 400;
+    list-style: none;
+    color: #837E9F;
+}
